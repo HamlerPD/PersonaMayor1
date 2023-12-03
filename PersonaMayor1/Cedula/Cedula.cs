@@ -26,11 +26,11 @@ namespace PersonaMayor1.Cedula
 
             if (Edad > 18)
             {
-                Console.WriteLine(" $El contacto " + Nombres + Apellidos + " Es mayor de 18 años");
+                Console.WriteLine($" El contacto " + Nombres + " " + Apellidos + " Es mayor de 18 años");
             }
             else
             {
-                Console.WriteLine(" $El contacto " + Nombres + Apellidos + " No  es mayor de 18 años");
+                Console.WriteLine($" El contacto " + Nombres+ " " + Apellidos + " No  es mayor de 18 años");
             }
 
         }
